@@ -143,7 +143,7 @@ const scopesOptions ={
 }
 new scopes(scopesOptions);
 ```
-*By default if no scopes path is given, it will look for 'scopes' in the root directory.  
+*By default if no scopes path and/or dir is given, it will look for 'scopes' in the app root directory.  
 In previous versions a scopes directory was created if not present, however this practice is discontinued and an error is thrown instead.
 <br/>*
 
@@ -178,5 +178,8 @@ const function = (test) => { console.log("An arrow function."); }//#checked
 
 const add = (a, b) => a + b //#arrow
 ```
-*The functiosn are parsed through an AST (abstract syntax tree) to validate the function by [Acorn](https://github.com/acornjs/acorn).  
+*The functions are parsed through an AST (abstract syntax tree) to validate the function by [Acorn](https://github.com/acornjs/acorn).  
 Invalid functions are skipped.*
+
+### Scope file repository
+*The only thing parsed are .js and .mjs, however all files will have their filepaths stored in the scopes.*
