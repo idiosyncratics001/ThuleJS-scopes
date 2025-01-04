@@ -1,0 +1,6 @@
+{
+    "name": "ThuleJS-scopes",
+    "version": "1.0.4",
+    "main": "scopes.mjs",
+    "type": "module"
+}

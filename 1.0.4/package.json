@@ -1,0 +1,30 @@
+{
+  "name": "thulejs-scopes",
+  "version": "1.0.4",
+  "description": "Reads all .js and .mjs files in scopes and parses functions, classes and arrow functions",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no scripts specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idiosyncratics001/thulejs-scopes.git"
+  },
+  "keywords": [
+    "module",
+    "scopes",
+    "import",
+    "parse"
+  ],
+  "author": "Idiosyncratics",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.14.0"
+  },
+  "bugs": {
+    "url": "https://github.com/idiosyncratics001/thulejs-scopes/issues"
+  },
+  "homepage": "https://github.com/idiosyncratics001/thulejs-scopes#readme",
+  "docs": "https://github.com/idiosyncratics001/ThuleJS-docs"
+}
