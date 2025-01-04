@@ -1,0 +1,6 @@
+{
+    "name": "ThuleJS-env",
+    "version": "1.0.3",
+    "main": "index.mjs",
+    "type": "module"
+}
