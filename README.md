@@ -73,9 +73,9 @@ scopes.getMeta('customScript', 'xml'))
 Returns 'scope not active' if scope is not loaded.*
 
 ```
-scopes.findScope()
-scopes.findScope('std', 'file') 
-scopes.findScope('std', 'file', ['utils','xml']) 
+scopes.findScopes()
+scopes.findScopes('std', 'file') 
+scopes.findScopes('std', 'file', ['utils','xml']) 
 ```
 
 **Get commands to return scopes content.**  
